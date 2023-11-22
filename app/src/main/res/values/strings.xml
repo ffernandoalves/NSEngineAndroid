@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NSEngine</string>
+    <string name="ndk_exam">[Made with OpenGL ES 3, NDK, C++ and Kotlin]</string>
+</resources>

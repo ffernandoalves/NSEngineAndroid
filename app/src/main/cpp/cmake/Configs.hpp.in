@@ -1,0 +1,19 @@
+#ifndef NSENGINE_VERSION_H
+#define NSENGINE_VERSION_H
+
+#include <iostream>
+
+#define ENGINE_VERSION_MAJOR @NSEngine_VERSION_MAJOR@
+#define ENGINE_VERSION_MINOR @NSEngine_VERSION_MINOR@
+#define ENGINE_VERSION_PATCH @NSEngine_VERSION_PATCH@
+
+namespace NSEngine{
+    int __version__[3] = {ENGINE_VERSION_MAJOR, ENGINE_VERSION_MINOR, ENGINE_VERSION_PATCH};
+    void version(){
+        std::cout << "Version : " << ENGINE_VERSION_MAJOR <<
+                "." << ENGINE_VERSION_MINOR <<
+                "." << ENGINE_VERSION_PATCH << std::endl;
+    }
+}
+
+#endif //NSENGINE_VERSION_H
