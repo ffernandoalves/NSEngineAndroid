@@ -1,6 +1,6 @@
 # NSEngine Android
 ---
-Um exemplo de uso de OpenGL ES 3, C++, NDk e Kotlin.
+Um exemplo de uso de OpenGL ES 3, C++, NDK e Kotlin.
 
 ## Desenvolvimento
 Ainda em produção..
